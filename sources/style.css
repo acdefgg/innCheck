@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Open+Sans:wght@400;500;600;700&family=Overpass:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;700;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+html, body {
+    font-family: Overpass, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: white;
+    color: #21243D; }
+
+.container{
+    max-width: 1300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.content__container{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; }
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit; }
+
+input, button {
+    font-family: inherit;
+    font-size: inherit; }
+
+input:focus, button:focus {
+    outline: none; }
+
+ul, li {
+    list-style: none; }
+
+
+
+button {
+    cursor: pointer;
+    background: white;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+
+
+}
+
+input {
+    height: 40px;
+    width: 600px;
+    margin-right: 20px;
+    background: white;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.main__result {
+    width: 720px;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.main__row {
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.result_item{
+    padding: 10px;
+}
